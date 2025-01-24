@@ -1,6 +1,6 @@
 body {
     background-color: #121212;
-    color: #fff;
+    color: white;
 
     font-family: 'Roboto', sans-serif;
     height: 100vh;
@@ -25,9 +25,29 @@ body {
     gap: 20px;
 }
 
-input {
+input[type="number"] {
     width: 80%;
     padding: 10px;
     border-radius: 5px;
     border: none;
+    background-color: #121212;
+    color: white;
+}
+
+h1 {
+    color: #00AF5C;
+}
+
+p {
+
+    color: #00AF5C;
+}
+
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
 }
